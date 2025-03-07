@@ -12,10 +12,9 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div className="bg-gray-100 min-h-screen">
-    <Header />
-    <MainLayout />
-  </div>
-
+      <Header />
+      <MainLayout />
+    </div>
   );
 }
 
